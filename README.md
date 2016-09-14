@@ -18,12 +18,12 @@ Execute composer command.
 
 [String]
 
-    echo $stripe_i18n->getError('processing_error', 'en');
+    echo $stripe_i18n->getError('incorrect_number', 'en');
     
     // Or
     
     $default = 'xxx';
-    echo $stripe_i18n->getError('processing_error', 'en', $default);
+    echo $stripe_i18n->getError('incorrect_number', 'en', $default);
         
 # Contribution
 
