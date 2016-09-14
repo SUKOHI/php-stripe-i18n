@@ -1,11 +1,13 @@
 # php-stripe-i18n
 A PHP package to localize messages of Stripe_CardError.  
 
+*  This package is inspired by [StripeI18n](https://github.com/ekosz/stripe-i18n) (for Ruby). Thank you, ekosz!
+
 # Installation
 
 Execute composer command.
 
-    composer require sukohi/php-stripe-i18n:2.*
+    composer require sukohi/php-stripe-i18n:1.*
 
 # Usage
 [Array]
@@ -16,12 +18,12 @@ Execute composer command.
 
 [String]
 
-    echo $stripe_i18n->getError('incorrect_number', 'en');
+    echo $stripe_i18n->getError('processing_error', 'en');
     
     // Or
     
     $default = 'xxx';
-    echo $stripe_i18n->getError('incorrect_number', 'en', $default);
+    echo $stripe_i18n->getError('processing_error', 'en', $default);
         
 # Contribution
 
