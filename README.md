@@ -1,8 +1,6 @@
 # php-stripe-i18n
 A PHP package to localize messages of Stripe_CardError.  
 
-*  This package is inspired by [StripeI18n](https://github.com/ekosz/stripe-i18n) (for Ruby). Thank you, ekosz!
-
 # Installation
 
 Execute composer command.
