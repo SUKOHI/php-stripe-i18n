@@ -5,7 +5,7 @@ A PHP package to localize messages of Stripe_CardError.
 
 Execute composer command.
 
-    composer require sukohi/php-stripe-i18n:1.*
+    composer require sukohi/php-stripe-i18n:2.*
 
 # Usage
 [Array]
